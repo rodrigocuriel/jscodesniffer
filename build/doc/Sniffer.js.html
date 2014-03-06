@@ -196,7 +196,7 @@ return function( esprima ) {
 			loadStandard: function( standardName ) {
 				var standard;
 				try {
-					standard = require( "../standard/" + standardName );
+					standard = require( "./standard/" + standardName );
 					if ( !standard ) {
 						throw new ReferenceError( "Cannot find " + standardName + " standard definition " );
 					}
