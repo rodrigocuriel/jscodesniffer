@@ -1,52 +1,50 @@
 {
-  "name": "os-jscs",
-  "description": "Tool to ensure that your JavaScript code does not violate the specified coding standard (Idiomatic Style Manifesto or JQuery Core Style Guidelines)",
-  "version": "0.1.0",
-  "author": "Rodrigo Curiel <rodrigocuriel@gmail.com> (http://twitter.com/roocuriel)",
-  "contributors": [],
-  "main": "jscs-module.js",
-  "homepage": "http://rodrigocuriel.github.io/jscodesniffer/",
-  "bin": {
-    "jscs": "./jscs"
-  },
-  "dependencies": {
-    "esprima": "~1.0.4"
-  },
-  "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-jshint": "~0.4.3",
-    "grunt-mocha-cli": "~1.2.1",
-    "assert": ">=0.4.9",
-    "mocha": ">=1.7.4",
-    "should": "*",
-    "jsdoc": "*"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://opensource.org/licenses/MIT"
-    }
-  ],
-  "maintainers": [
-    "Rodrigo Curiel <rodrigocuriel@gmail.com> (http://twitter.com/roocuriel)"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rodrigocuriel/jscodesniffer.git"
-  },
-  "bugs": {
-    "url": "https://github.com/rodrigocuriel/jscodesniffer/issues"
-  },
-  "scripts": {
-    "test": "grunt test"
-  },
-  "keywords": [
-    "styleguide",
-    "formatter"
-  ],
-  "directories": {
-    "doc": "doc",
-    "test": "test"
-  },
-  "license": "MIT"
+    "name": "os-jscs",
+    "description": "Tool to ensure that your JavaScript code does not violate the specified coding standard (Idiomatic Style Manifesto or JQuery Core Style Guidelines)",
+    "version": "0.1.2",
+    "author": "Rodrigo Curiel <rodrigocuriel@gmail.com> (http://twitter.com/roocuriel)",
+    "contributors": [],
+    "main": "jscs-module.js",
+    "homepage": "http://rodrigocuriel.github.io/jscodesniffer/",
+    "bin": {
+        "jscs": "./jscs"
+    },
+    "dependencies": {
+        "esprima": "~1.0.4"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-jshint": "~0.4.3",
+        "grunt-mocha-cli": "~1.2.1",
+        "assert": ">=0.4.9",
+        "mocha": ">=1.7.4",
+        "should": "*",
+        "jsdoc": "*"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "http://opensource.org/licenses/MIT"
+    }],
+    "maintainers": [
+        "Rodrigo Curiel <rodrigocuriel@gmail.com> (http://twitter.com/roocuriel)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rodrigocuriel/jscodesniffer.git"
+    },
+    "bugs": {
+        "url": "https://github.com/rodrigocuriel/jscodesniffer/issues"
+    },
+    "scripts": {
+        "test": "grunt test"
+    },
+    "keywords": [
+        "styleguide",
+        "formatter"
+    ],
+    "directories": {
+        "doc": "doc",
+        "test": "test"
+    },
+    "license": "MIT"
 }
